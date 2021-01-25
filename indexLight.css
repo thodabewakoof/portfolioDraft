@@ -1,0 +1,56 @@
+/* alignment of background is bad and needs to be adjusted, after i will larn to position it */
+body {
+    margin: 0px;
+    border: 0px;
+    font-size: 16px;
+    background-image: url('bgLight.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+
+#explore {
+    margin-bottom: 0px;
+}
+/* text is centered using padding not using center tags, oops */
+#exploreButton {
+    padding: 5px 5px 8px 5px;
+    width: 180px;
+    height: 35px;
+    background-color: rgba(14, 153, 247, 0.459);
+    margin: 10px auto 10px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    box-shadow: -5px -5px 15px 3px#033353;
+}
+
+#exploreButton:hover {
+    padding: 10px 5px 5px 5px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(14, 153, 247, 0.459);
+    margin: 10px auto 10px auto;
+    text-align: center;
+    font-size: 2.4em;
+    color: rgb(255, 255, 255);
+    box-shadow: -5px -5px 15px 3px#011e31;
+}
+/* will place this at bottom right, but don't know the tags, yikes */
+#darkMode {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(14, 153, 247);
+    
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:  rgb(78, 78, 78);;
+}
+
+a:hover {
+    font-size: 1.2em;;
+}
